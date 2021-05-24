@@ -1,0 +1,19 @@
+# 用例基本信息
+scenario_name: "用户登录"
+
+# 测试用例
+test_case:
+    - case_name: "登录"    # 必填  parameter为文件路径时 string
+      case_url: "/user/login"  #请求url
+      request_method: post          # 请求方式 string
+      body: {
+          "username": "wangmengting@tezign.com",
+          "password": "qq111111"
+      }
+      headers : {
+          "Content-Type":"application/x-www-form-urlencoded",
+          "X-TENANT-ID":"t2"
+      }
+
+
+

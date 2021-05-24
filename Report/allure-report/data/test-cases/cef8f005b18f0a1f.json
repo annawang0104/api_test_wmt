@@ -1,0 +1,226 @@
+{
+  "uid" : "cef8f005b18f0a1f",
+  "name" : "test_adminlogin[case_data0]",
+  "fullName" : "TestCase.TestLogin.test_login.TestLogin#test_adminlogin",
+  "historyId" : "2a61951c8d6c9d4cc3fbe902a68c27c0",
+  "time" : {
+    "start" : 1604393370186,
+    "stop" : 1604393371166,
+    "duration" : 980
+  },
+  "description" : "\n\n        :param case_data: 单个测试用例数据\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    :param case_data: 单个测试用例数据\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "\n\n        :param case_data: 单个测试用例数据\n        :return:\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST请求接口",
+      "time" : {
+        "start" : 1604393370186,
+        "stop" : 1604393371158,
+        "duration" : 972
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6debeed7d693d0e5",
+        "name" : "请求接口",
+        "source" : "6debeed7d693d0e5.attach",
+        "type" : "text/plain",
+        "size" : 6
+      }, {
+        "uid" : "fd6eaaba2a9e275",
+        "name" : "请求地址",
+        "source" : "fd6eaaba2a9e275.attach",
+        "type" : "text/plain",
+        "size" : 36
+      }, {
+        "uid" : "881e254c6c40f04b",
+        "name" : "请求头",
+        "source" : "881e254c6c40f04b.attach",
+        "type" : "text/plain",
+        "size" : 88
+      }, {
+        "uid" : "62421d7a843cbdba",
+        "name" : "请求参数",
+        "source" : "62421d7a843cbdba.attach",
+        "type" : "text/plain",
+        "size" : 74
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "第一步，校验接口http状态",
+      "time" : {
+        "start" : 1604393371158,
+        "stop" : 1604393371159,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4bf364deac326e35",
+        "name" : "200",
+        "source" : "4bf364deac326e35.attach",
+        "type" : "text/plain",
+        "size" : 10
+      }, {
+        "uid" : "41166f3b0ea05a2b",
+        "name" : "200",
+        "source" : "41166f3b0ea05a2b.attach",
+        "type" : "text/plain",
+        "size" : 10
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "第二步，校验body内容",
+      "time" : {
+        "start" : 1604393371159,
+        "stop" : 1604393371159,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "15b80158ea33e977",
+      "name" : "code",
+      "source" : "15b80158ea33e977.attach",
+      "type" : "text/plain",
+      "size" : 15
+    }, {
+      "uid" : "fb96b17b6178a17c",
+      "name" : "0",
+      "source" : "fb96b17b6178a17c.attach",
+      "type" : "text/plain",
+      "size" : 20
+    }, {
+      "uid" : "489ac0d9de84eb8a",
+      "name" : "0",
+      "source" : "489ac0d9de84eb8a.attach",
+      "type" : "text/plain",
+      "size" : 20
+    }, {
+      "uid" : "513a8638fe7dcef3",
+      "name" : "$.登录.result.base.email",
+      "source" : "513a8638fe7dcef3.attach",
+      "type" : "text/plain",
+      "size" : 15
+    }, {
+      "uid" : "1410d6efd654838b",
+      "name" : "tzvirtual1@tezign.com",
+      "source" : "1410d6efd654838b.attach",
+      "type" : "text/plain",
+      "size" : 20
+    }, {
+      "uid" : "dee204b751c81ce1",
+      "name" : "tzvirtual1@tezign.com",
+      "source" : "dee204b751c81ce1.attach",
+      "type" : "text/plain",
+      "size" : 20
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 12,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "用户登录"
+  }, {
+    "name" : "story",
+    "value" : "用户登录"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase.TestLogin"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "mengting-MBP"
+  }, {
+    "name" : "thread",
+    "value" : "10859-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.TestLogin.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case_data",
+    "value" : "{'case_name': '登录', 'case_url': '/user/login', 'request_type': 'post', 'request': {'headers': {'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'X-TENANT-ID': 't2'}, 'body': {'body': 'username=tzvirtual1%40tezign.com&password=111111&expires=SHORT'}}, 'assertions': {'status': 200, 'body': {'code': '0', '$.登录.result.base.email': 'tzvirtual1@tezign.com'}}}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e394bfb2b59728db",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603873783212,
+        "stop" : 1603873783523,
+        "duration" : 311
+      }
+    }, {
+      "uid" : "9a5c274848f629a0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600775908379,
+        "stop" : 1600775908577,
+        "duration" : 198
+      }
+    }, {
+      "uid" : "a90a13ff9e507201",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600225193702,
+        "stop" : 1600225193872,
+        "duration" : 170
+      }
+    }, {
+      "uid" : "342034f72fa01efa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600167728915,
+        "stop" : 1600167729064,
+        "duration" : 149
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cef8f005b18f0a1f.json",
+  "parameterValues" : [ "{'case_name': '登录', 'case_url': '/user/login', 'request_type': 'post', 'request': {'headers': {'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'X-TENANT-ID': 't2'}, 'body': {'body': 'username=tzvirtual1%40tezign.com&password=111111&expires=SHORT'}}, 'assertions': {'status': 200, 'body': {'code': '0', '$.登录.result.base.email': 'tzvirtual1@tezign.com'}}}" ]
+}

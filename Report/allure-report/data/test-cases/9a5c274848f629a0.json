@@ -1,0 +1,192 @@
+{
+  "uid" : "9a5c274848f629a0",
+  "name" : "test_adminlogin[case_data0]",
+  "fullName" : "TestCase.TestLogin.test_login.TestLogin#test_adminlogin",
+  "historyId" : "2a61951c8d6c9d4cc3fbe902a68c27c0",
+  "time" : {
+    "start" : 1600775908379,
+    "stop" : 1600775908577,
+    "duration" : 198
+  },
+  "description" : "\n\n        :param case_data: 单个测试用例数据\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    :param case_data: 单个测试用例数据\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "\n\n        :param case_data: 单个测试用例数据\n        :return:\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST请求接口",
+      "time" : {
+        "start" : 1600775908380,
+        "stop" : 1600775908572,
+        "duration" : 192
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "308dea05144ac821",
+        "name" : "请求接口",
+        "source" : "308dea05144ac821.attach",
+        "type" : "text/plain",
+        "size" : 6
+      }, {
+        "uid" : "8113001a6d20648e",
+        "name" : "请求地址",
+        "source" : "8113001a6d20648e.attach",
+        "type" : "text/plain",
+        "size" : 36
+      }, {
+        "uid" : "de4aa1d67877ceb8",
+        "name" : "请求头",
+        "source" : "de4aa1d67877ceb8.attach",
+        "type" : "text/plain",
+        "size" : 88
+      }, {
+        "uid" : "a9202981198b64b0",
+        "name" : "请求参数",
+        "source" : "a9202981198b64b0.attach",
+        "type" : "text/plain",
+        "size" : 74
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "第一步，校验接口http状态",
+      "time" : {
+        "start" : 1600775908573,
+        "stop" : 1600775908573,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "42325a15c9ad3e4c",
+        "name" : "200",
+        "source" : "42325a15c9ad3e4c.attach",
+        "type" : "text/plain",
+        "size" : 10
+      }, {
+        "uid" : "474f6ea3a573f9f",
+        "name" : "200",
+        "source" : "474f6ea3a573f9f.attach",
+        "type" : "text/plain",
+        "size" : 10
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "第二步，校验body内容",
+      "time" : {
+        "start" : 1600775908574,
+        "stop" : 1600775908574,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "4430181dd51f4e85",
+      "name" : "code",
+      "source" : "4430181dd51f4e85.attach",
+      "type" : "text/plain",
+      "size" : 15
+    }, {
+      "uid" : "f7352950d845f052",
+      "name" : "0",
+      "source" : "f7352950d845f052.attach",
+      "type" : "text/plain",
+      "size" : 20
+    }, {
+      "uid" : "4649ef74e6e5422e",
+      "name" : "0",
+      "source" : "4649ef74e6e5422e.attach",
+      "type" : "text/plain",
+      "size" : 20
+    }, {
+      "uid" : "774b00d3e4b489bb",
+      "name" : "$.登录.result.base.email",
+      "source" : "774b00d3e4b489bb.attach",
+      "type" : "text/plain",
+      "size" : 15
+    }, {
+      "uid" : "c57ab0068b59f5d",
+      "name" : "tzvirtual1@tezign.com",
+      "source" : "c57ab0068b59f5d.attach",
+      "type" : "text/plain",
+      "size" : 20
+    }, {
+      "uid" : "cb8dc33dca1a683b",
+      "name" : "tzvirtual1@tezign.com",
+      "source" : "cb8dc33dca1a683b.attach",
+      "type" : "text/plain",
+      "size" : 20
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 12,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "用户登录"
+  }, {
+    "name" : "story",
+    "value" : "用户登录"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase.TestLogin"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "mengting-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "13631-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.TestLogin.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case_data",
+    "value" : "{'case_name': '登录', 'case_url': '/user/login', 'request_type': 'post', 'request': {'headers': {'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'X-TENANT-ID': 't2'}, 'body': {'body': 'username=tzvirtual1%40tezign.com&password=111111&expires=SHORT'}}, 'assertions': {'status': 200, 'body': {'code': '0', '$.登录.result.base.email': 'tzvirtual1@tezign.com'}}}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9a5c274848f629a0.json",
+  "parameterValues" : [ "{'case_name': '登录', 'case_url': '/user/login', 'request_type': 'post', 'request': {'headers': {'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'X-TENANT-ID': 't2'}, 'body': {'body': 'username=tzvirtual1%40tezign.com&password=111111&expires=SHORT'}}, 'assertions': {'status': 200, 'body': {'code': '0', '$.登录.result.base.email': 'tzvirtual1@tezign.com'}}}" ]
+}

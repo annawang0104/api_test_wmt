@@ -1,0 +1,174 @@
+{
+  "uid" : "88255c5d3f7e589a",
+  "name" : "test_adminlogin[case_data1]",
+  "fullName" : "TestCase.TestLogin.test_login.TestLogin#test_adminlogin",
+  "historyId" : "3374fa214aa76fdef1a946c398eafebb",
+  "time" : {
+    "start" : 1600775908588,
+    "stop" : 1600775908706,
+    "duration" : 118
+  },
+  "description" : "\n\n        :param case_data: 单个测试用例数据\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    :param case_data: 单个测试用例数据\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "\n\n        :param case_data: 单个测试用例数据\n        :return:\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST请求接口",
+      "time" : {
+        "start" : 1600775908589,
+        "stop" : 1600775908703,
+        "duration" : 114
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "851694adc07e5188",
+        "name" : "请求接口",
+        "source" : "851694adc07e5188.attach",
+        "type" : "text/plain",
+        "size" : 30
+      }, {
+        "uid" : "fafbe52769507057",
+        "name" : "请求地址",
+        "source" : "fafbe52769507057.attach",
+        "type" : "text/plain",
+        "size" : 71
+      }, {
+        "uid" : "cac2cc0027098180",
+        "name" : "请求头",
+        "source" : "cac2cc0027098180.attach",
+        "type" : "text/plain",
+        "size" : 122
+      }, {
+        "uid" : "4a6bcfc559043b55",
+        "name" : "请求参数",
+        "source" : "4a6bcfc559043b55.attach",
+        "type" : "text/plain",
+        "size" : 72
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "第一步，校验接口http状态",
+      "time" : {
+        "start" : 1600775908703,
+        "stop" : 1600775908704,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b3f9468497bfd51a",
+        "name" : "200",
+        "source" : "b3f9468497bfd51a.attach",
+        "type" : "text/plain",
+        "size" : 10
+      }, {
+        "uid" : "4397aaaf659dbf53",
+        "name" : "200",
+        "source" : "4397aaaf659dbf53.attach",
+        "type" : "text/plain",
+        "size" : 10
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "第二步，校验body内容",
+      "time" : {
+        "start" : 1600775908704,
+        "stop" : 1600775908705,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "cdb6bff3b80558e8",
+      "name" : "code",
+      "source" : "cdb6bff3b80558e8.attach",
+      "type" : "text/plain",
+      "size" : 15
+    }, {
+      "uid" : "adf56a7a587b3fd",
+      "name" : "0",
+      "source" : "adf56a7a587b3fd.attach",
+      "type" : "text/plain",
+      "size" : 20
+    }, {
+      "uid" : "f5ce3bbd4597f6b0",
+      "name" : "0",
+      "source" : "f5ce3bbd4597f6b0.attach",
+      "type" : "text/plain",
+      "size" : 20
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 9,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "用户登录"
+  }, {
+    "name" : "story",
+    "value" : "用户登录"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase.TestLogin"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "mengting-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "13631-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.TestLogin.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case_data",
+    "value" : "{'case_name': '按品牌品类查看上传量', 'case_url': '/material/statistic/insight/get-indicator-data', 'request_type': 'post', 'request': {'headers': {'Content-Type': 'application/json', 'X-TENANT-ID': 't2', 'X-Token': '$.{$.登录.result.token}', 'X-User-Id': '$.{$.登录.result.base.id}'}, 'body': {'startDate': 1598889600000, 'endDate': 1599494399999, 'deptIdList': []}}, 'assertions': {'status': 200, 'body': {'code': '0'}}}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "88255c5d3f7e589a.json",
+  "parameterValues" : [ "{'case_name': '按品牌品类查看上传量', 'case_url': '/material/statistic/insight/get-indicator-data', 'request_type': 'post', 'request': {'headers': {'Content-Type': 'application/json', 'X-TENANT-ID': 't2', 'X-Token': '$.{$.登录.result.token}', 'X-User-Id': '$.{$.登录.result.base.id}'}, 'body': {'startDate': 1598889600000, 'endDate': 1599494399999, 'deptIdList': []}}, 'assertions': {'status': 200, 'body': {'code': '0'}}}" ]
+}

@@ -1,0 +1,34 @@
+{
+  "scenarioName": "用户登录",
+  "steps": [
+    {
+      "case_name": "登录",
+      "case_url": "/user/login",
+      "request_type": "post",
+      "request": {
+        "headers": {
+          "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8",
+          "X-TENANT-ID": "t2"
+        },
+        "body":
+           {"body" :
+
+          "username=tzvirtual1%40tezign.com&password=111111&expires=SHORT"
+          }
+      }
+    ,
+      "assertions": {
+        "status": 200,
+        "body": {
+          "code" : "0",
+          "$.登录.result.base.email":"tzvirtual1@tezign.com"
+        }
+      }
+    }
+
+
+
+  ]
+}
+
+

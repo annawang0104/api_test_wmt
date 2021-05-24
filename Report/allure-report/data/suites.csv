@@ -1,0 +1,21 @@
+"Status","Name","Duration in ms","Description"
+"passed","TestCase.TestLogin.test_login.TestLogin#test_adminlogin","980","
+
+        :param case_data: 单个测试用例数据
+        :return:
+        "
+"passed","TestCase.TestLogin.test_login.TestLogin#test_adminlogin","1004","
+
+        :param case_data: 单个测试用例数据
+        :return:
+        "
+"passed","TestCase.TestMaterial.test_material.TestMaterial#test_adminlogin","302","
+
+        :param case_data: 单个测试用例数据
+        :return:
+        "
+"passed","TestCase.TestMaterial.test_material.TestMaterial#test_materail","987","
+
+        :param case_data: 单个测试用例数据
+        :return:
+        "

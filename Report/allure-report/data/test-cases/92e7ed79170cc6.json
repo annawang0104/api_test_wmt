@@ -1,0 +1,316 @@
+{
+  "uid" : "92e7ed79170cc6",
+  "name" : "test_materail[case_data0]",
+  "fullName" : "TestCase.TestMaterial.test_material.TestMaterial#test_materail",
+  "historyId" : "7e9c6e4ca999074690b1d719f146411a",
+  "time" : {
+    "start" : 1604393372619,
+    "stop" : 1604393373606,
+    "duration" : 987
+  },
+  "description" : "\n\n        :param case_data: 单个测试用例数据\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    :param case_data: 单个测试用例数据\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "login_in_load",
+    "time" : {
+      "start" : 1604393372195,
+      "stop" : 1604393372618,
+      "duration" : 423
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST请求接口",
+      "time" : {
+        "start" : 1604393372195,
+        "stop" : 1604393372614,
+        "duration" : 419
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "516d77ae613da7a0",
+        "name" : "请求接口",
+        "source" : "516d77ae613da7a0.attach",
+        "type" : "text/plain",
+        "size" : 6
+      }, {
+        "uid" : "ad8d9e122bced62b",
+        "name" : "请求地址",
+        "source" : "ad8d9e122bced62b.attach",
+        "type" : "text/plain",
+        "size" : 36
+      }, {
+        "uid" : "70de9659b14ae0b",
+        "name" : "请求头",
+        "source" : "70de9659b14ae0b.attach",
+        "type" : "text/plain",
+        "size" : 88
+      }, {
+        "uid" : "28b9f462649678eb",
+        "name" : "请求参数",
+        "source" : "28b9f462649678eb.attach",
+        "type" : "text/plain",
+        "size" : 74
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "第一步，校验接口http状态",
+      "time" : {
+        "start" : 1604393372615,
+        "stop" : 1604393372616,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "22f5b5cad95180cb",
+        "name" : "200",
+        "source" : "22f5b5cad95180cb.attach",
+        "type" : "text/plain",
+        "size" : 10
+      }, {
+        "uid" : "4ba3411a7f7a3d9",
+        "name" : "200",
+        "source" : "4ba3411a7f7a3d9.attach",
+        "type" : "text/plain",
+        "size" : 10
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "第二步，校验body内容",
+      "time" : {
+        "start" : 1604393372616,
+        "stop" : 1604393372616,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "fce0cf43effd090b",
+      "name" : "code",
+      "source" : "fce0cf43effd090b.attach",
+      "type" : "text/plain",
+      "size" : 15
+    }, {
+      "uid" : "5de637a9610912ea",
+      "name" : "0",
+      "source" : "5de637a9610912ea.attach",
+      "type" : "text/plain",
+      "size" : 20
+    }, {
+      "uid" : "7f573e07e1bd6ad",
+      "name" : "0",
+      "source" : "7f573e07e1bd6ad.attach",
+      "type" : "text/plain",
+      "size" : 20
+    }, {
+      "uid" : "5088db8cdaf74ace",
+      "name" : "$.登录.result.base.email",
+      "source" : "5088db8cdaf74ace.attach",
+      "type" : "text/plain",
+      "size" : 15
+    }, {
+      "uid" : "20c03fb1f3f770d5",
+      "name" : "tzvirtual1@tezign.com",
+      "source" : "20c03fb1f3f770d5.attach",
+      "type" : "text/plain",
+      "size" : 20
+    }, {
+      "uid" : "c86d852e9aa47106",
+      "name" : "tzvirtual1@tezign.com",
+      "source" : "c86d852e9aa47106.attach",
+      "type" : "text/plain",
+      "size" : 20
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 12,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "description" : "\n\n        :param case_data: 单个测试用例数据\n        :return:\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST请求接口",
+      "time" : {
+        "start" : 1604393372620,
+        "stop" : 1604393373602,
+        "duration" : 982
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fddbabf4b0c072aa",
+        "name" : "请求接口",
+        "source" : "fddbabf4b0c072aa.attach",
+        "type" : "text/plain",
+        "size" : 50
+      }, {
+        "uid" : "f88a0de5744f82a1",
+        "name" : "请求地址",
+        "source" : "f88a0de5744f82a1.attach",
+        "type" : "text/plain",
+        "size" : 45
+      }, {
+        "uid" : "fc5d1d2badcf3064",
+        "name" : "请求头",
+        "source" : "fc5d1d2badcf3064.attach",
+        "type" : "text/plain",
+        "size" : 122
+      }, {
+        "uid" : "def821b9611ca180",
+        "name" : "请求参数",
+        "source" : "def821b9611ca180.attach",
+        "type" : "text/plain",
+        "size" : 72
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "第一步，校验接口http状态",
+      "time" : {
+        "start" : 1604393373603,
+        "stop" : 1604393373604,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b8c1a58d84179a1f",
+        "name" : "200",
+        "source" : "b8c1a58d84179a1f.attach",
+        "type" : "text/plain",
+        "size" : 10
+      }, {
+        "uid" : "b3e6b3e51de93c70",
+        "name" : "200",
+        "source" : "b3e6b3e51de93c70.attach",
+        "type" : "text/plain",
+        "size" : 10
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "第二步，校验body内容",
+      "time" : {
+        "start" : 1604393373604,
+        "stop" : 1604393373605,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "30ca9627d270315f",
+      "name" : "code",
+      "source" : "30ca9627d270315f.attach",
+      "type" : "text/plain",
+      "size" : 15
+    }, {
+      "uid" : "6303e9381fd76ffb",
+      "name" : "0",
+      "source" : "6303e9381fd76ffb.attach",
+      "type" : "text/plain",
+      "size" : 20
+    }, {
+      "uid" : "62d4c83a5526436c",
+      "name" : "0",
+      "source" : "62d4c83a5526436c.attach",
+      "type" : "text/plain",
+      "size" : 20
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 9,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "素材库"
+  }, {
+    "name" : "story",
+    "value" : "素材库"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase.TestMaterial"
+  }, {
+    "name" : "suite",
+    "value" : "test_material"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMaterial"
+  }, {
+    "name" : "host",
+    "value" : "mengting-MBP"
+  }, {
+    "name" : "thread",
+    "value" : "10859-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.TestMaterial.test_material"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case_data",
+    "value" : "{'case_name': '素材组-全部列表-按更新时间降序排序', 'case_url': '/material/group/list', 'request_type': 'post', 'request': {'headers': {'Content-Type': 'application/json', 'X-TENANT-ID': 't2', 'X-Token': '$.{$.登录.result.token}', 'X-User-Id': '$.{$.登录.result.base.id}'}, 'body': {'name': 'updateTime', 'value': 'desc', 'startPoint': 0, 'endPoint': 48}}, 'assertions': {'status': 200, 'body': {'code': '0'}}}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "98f0432cdabd6091",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603873783865,
+        "stop" : 1603873784040,
+        "duration" : 175
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "92e7ed79170cc6.json",
+  "parameterValues" : [ "{'case_name': '素材组-全部列表-按更新时间降序排序', 'case_url': '/material/group/list', 'request_type': 'post', 'request': {'headers': {'Content-Type': 'application/json', 'X-TENANT-ID': 't2', 'X-Token': '$.{$.登录.result.token}', 'X-User-Id': '$.{$.登录.result.base.id}'}, 'body': {'name': 'updateTime', 'value': 'desc', 'startPoint': 0, 'endPoint': 48}}, 'assertions': {'status': 200, 'body': {'code': '0'}}}" ]
+}

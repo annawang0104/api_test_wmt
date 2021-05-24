@@ -1,0 +1,35 @@
+{
+  "scenarioName": "素材库",
+  "steps": [
+
+    {
+      "case_name": "素材组-全部列表-按更新时间降序排序",
+      "case_url": "/material/group/list",
+      "request_type": "post",
+      "request": {
+        "headers": {
+           "Content-Type": "application/json",
+           "X-TENANT-ID": "t2",
+           "X-Token": "$.{$.登录.result.token}",
+           "X-User-Id": "$.{$.登录.result.base.id}"
+         },
+        "body":{
+          "name":"updateTime",
+          "value":"desc",
+          "startPoint":0,
+          "endPoint":48
+      }
+        },
+
+      "assertions": {
+        "status": 200,
+        "body": {
+          "code" : "0"
+        }
+      }
+    }
+
+
+  ]
+
+}

@@ -1,0 +1,208 @@
+{
+  "uid" : "1427b9ce376025c2",
+  "name" : "test_adminlogin[case_data1]",
+  "fullName" : "TestCase.TestLogin.test_login.TestLogin#test_adminlogin",
+  "historyId" : "3374fa214aa76fdef1a946c398eafebb",
+  "time" : {
+    "start" : 1604393371179,
+    "stop" : 1604393372183,
+    "duration" : 1004
+  },
+  "description" : "\n\n        :param case_data: 单个测试用例数据\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    :param case_data: 单个测试用例数据\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "\n\n        :param case_data: 单个测试用例数据\n        :return:\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST请求接口",
+      "time" : {
+        "start" : 1604393371179,
+        "stop" : 1604393372180,
+        "duration" : 1001
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ea526a90713161aa",
+        "name" : "请求接口",
+        "source" : "ea526a90713161aa.attach",
+        "type" : "text/plain",
+        "size" : 30
+      }, {
+        "uid" : "c1c288b54a6f3eba",
+        "name" : "请求地址",
+        "source" : "c1c288b54a6f3eba.attach",
+        "type" : "text/plain",
+        "size" : 71
+      }, {
+        "uid" : "c3da96c205438dd6",
+        "name" : "请求头",
+        "source" : "c3da96c205438dd6.attach",
+        "type" : "text/plain",
+        "size" : 122
+      }, {
+        "uid" : "30f32a4b4ba7813e",
+        "name" : "请求参数",
+        "source" : "30f32a4b4ba7813e.attach",
+        "type" : "text/plain",
+        "size" : 72
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "第一步，校验接口http状态",
+      "time" : {
+        "start" : 1604393372180,
+        "stop" : 1604393372181,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a597c96a8c69721b",
+        "name" : "200",
+        "source" : "a597c96a8c69721b.attach",
+        "type" : "text/plain",
+        "size" : 10
+      }, {
+        "uid" : "74d808e549c5db83",
+        "name" : "200",
+        "source" : "74d808e549c5db83.attach",
+        "type" : "text/plain",
+        "size" : 10
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "第二步，校验body内容",
+      "time" : {
+        "start" : 1604393372182,
+        "stop" : 1604393372182,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "473e7553826ee2d8",
+      "name" : "code",
+      "source" : "473e7553826ee2d8.attach",
+      "type" : "text/plain",
+      "size" : 15
+    }, {
+      "uid" : "64ef7d489eccd3cb",
+      "name" : "0",
+      "source" : "64ef7d489eccd3cb.attach",
+      "type" : "text/plain",
+      "size" : 20
+    }, {
+      "uid" : "eb09d170af27ceb7",
+      "name" : "0",
+      "source" : "eb09d170af27ceb7.attach",
+      "type" : "text/plain",
+      "size" : 20
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 9,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "用户登录"
+  }, {
+    "name" : "story",
+    "value" : "用户登录"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase.TestLogin"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "mengting-MBP"
+  }, {
+    "name" : "thread",
+    "value" : "10859-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.TestLogin.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case_data",
+    "value" : "{'case_name': '按品牌品类查看上传量', 'case_url': '/material/statistic/insight/get-indicator-data', 'request_type': 'post', 'request': {'headers': {'Content-Type': 'application/json', 'X-TENANT-ID': 't2', 'X-Token': '$.{$.登录.result.token}', 'X-User-Id': '$.{$.登录.result.base.id}'}, 'body': {'startDate': 1598889600000, 'endDate': 1599494399999, 'deptIdList': []}}, 'assertions': {'status': 200, 'body': {'code': '0'}}}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e0bacf3842d89ebf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603873783526,
+        "stop" : 1603873783649,
+        "duration" : 123
+      }
+    }, {
+      "uid" : "88255c5d3f7e589a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600775908588,
+        "stop" : 1600775908706,
+        "duration" : 118
+      }
+    }, {
+      "uid" : "617a3eed3d28a03",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600225193889,
+        "stop" : 1600225194076,
+        "duration" : 187
+      }
+    }, {
+      "uid" : "b0cefe157822becc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600167729067,
+        "stop" : 1600167729201,
+        "duration" : 134
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1427b9ce376025c2.json",
+  "parameterValues" : [ "{'case_name': '按品牌品类查看上传量', 'case_url': '/material/statistic/insight/get-indicator-data', 'request_type': 'post', 'request': {'headers': {'Content-Type': 'application/json', 'X-TENANT-ID': 't2', 'X-Token': '$.{$.登录.result.token}', 'X-User-Id': '$.{$.登录.result.base.id}'}, 'body': {'startDate': 1598889600000, 'endDate': 1599494399999, 'deptIdList': []}}, 'assertions': {'status': 200, 'body': {'code': '0'}}}" ]
+}

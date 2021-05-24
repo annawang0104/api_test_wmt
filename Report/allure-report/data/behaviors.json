@@ -1,0 +1,69 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "素材库",
+    "children" : [ {
+      "name" : "素材库",
+      "children" : [ {
+        "name" : "test_adminlogin[case_data0]",
+        "uid" : "8b3ec0dcfe7a8d45",
+        "parentUid" : "5e62bbcb9db9d4488d1234e2d8d3b3b8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1600775908714,
+          "stop" : 1600775909016,
+          "duration" : 302
+        },
+        "flaky" : false,
+        "parameters" : [ "{'case_name': '素材组-全部列表-按更新时间降序排序', 'case_url': '/material/group/list', 'request_type': 'post', 'request': {'headers': {'Content-Type': 'application/json', 'X-TENANT-ID': 't2', 'X-Token': '$.{$.登录.result.token}', 'X-User-Id': '$.{$.登录.result.base.id}'}, 'body': {'name': 'updateTime', 'value': 'desc', 'startPoint': 0, 'endPoint': 48}}, 'assertions': {'status': 200, 'body': {'code': '0'}}}" ]
+      }, {
+        "name" : "test_materail[case_data0]",
+        "uid" : "92e7ed79170cc6",
+        "parentUid" : "5e62bbcb9db9d4488d1234e2d8d3b3b8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604393372619,
+          "stop" : 1604393373606,
+          "duration" : 987
+        },
+        "flaky" : false,
+        "parameters" : [ "{'case_name': '素材组-全部列表-按更新时间降序排序', 'case_url': '/material/group/list', 'request_type': 'post', 'request': {'headers': {'Content-Type': 'application/json', 'X-TENANT-ID': 't2', 'X-Token': '$.{$.登录.result.token}', 'X-User-Id': '$.{$.登录.result.base.id}'}, 'body': {'name': 'updateTime', 'value': 'desc', 'startPoint': 0, 'endPoint': 48}}, 'assertions': {'status': 200, 'body': {'code': '0'}}}" ]
+      } ],
+      "uid" : "5e62bbcb9db9d4488d1234e2d8d3b3b8"
+    } ],
+    "uid" : "784e53e9071c32fd8ae7857363f0243a"
+  }, {
+    "name" : "用户登录",
+    "children" : [ {
+      "name" : "用户登录",
+      "children" : [ {
+        "name" : "test_adminlogin[case_data0]",
+        "uid" : "cef8f005b18f0a1f",
+        "parentUid" : "00004fe5c82119bf524106ce923cf022",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604393370186,
+          "stop" : 1604393371166,
+          "duration" : 980
+        },
+        "flaky" : false,
+        "parameters" : [ "{'case_name': '登录', 'case_url': '/user/login', 'request_type': 'post', 'request': {'headers': {'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'X-TENANT-ID': 't2'}, 'body': {'body': 'username=tzvirtual1%40tezign.com&password=111111&expires=SHORT'}}, 'assertions': {'status': 200, 'body': {'code': '0', '$.登录.result.base.email': 'tzvirtual1@tezign.com'}}}" ]
+      }, {
+        "name" : "test_adminlogin[case_data1]",
+        "uid" : "1427b9ce376025c2",
+        "parentUid" : "00004fe5c82119bf524106ce923cf022",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604393371179,
+          "stop" : 1604393372183,
+          "duration" : 1004
+        },
+        "flaky" : false,
+        "parameters" : [ "{'case_name': '按品牌品类查看上传量', 'case_url': '/material/statistic/insight/get-indicator-data', 'request_type': 'post', 'request': {'headers': {'Content-Type': 'application/json', 'X-TENANT-ID': 't2', 'X-Token': '$.{$.登录.result.token}', 'X-User-Id': '$.{$.登录.result.base.id}'}, 'body': {'startDate': 1598889600000, 'endDate': 1599494399999, 'deptIdList': []}}, 'assertions': {'status': 200, 'body': {'code': '0'}}}" ]
+      } ],
+      "uid" : "00004fe5c82119bf524106ce923cf022"
+    } ],
+    "uid" : "59ef7dd4c662d2470b42be4c1b039f6e"
+  } ]
+}
